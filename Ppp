@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Una carta para ti</title>
+    <style>
+        body {
+            background-color: #fcefe9;
+            font-family: 'Georgia', serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.imgur.com/lkQhCgd.png'), 
+                              url('https://i.imgur.com/Z3kqM2F.png'),
+                              url('https://i.imgur.com/lkQhCgd.png'),
+                              url('https://i.imgur.com/Z3kqM2F.png');
+            background-repeat: no-repeat;
+            background-position: top left, top right, bottom left, bottom right;
+            background-size: 150px, 150px, 150px, 150px;
+        }
+        .carta {
+            background-color: rgba(255, 255, 255, 0.9);
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #c94f7c;
+        }
+        p {
+            line-height: 1.7;
+        }
+        .firma {
+            text-align: right;
+            margin-top: 40px;
+            font-style: italic;
+            color: #c94f7c;
+        }
+    </style>
+</head>
+<body>
+    <div class="carta">
+        <h1>Para ti, con cariño</h1>
+        <p>Querida [Su nombre],</p>
+
+        <p>
+            Hoy nuestros caminos se separan, pero no quería irme sin decirte cuánto te agradezco por todo lo que compartimos. Fueron momentos hermosos, llenos de aprendizaje, sonrisas, y también de crecimiento personal.
+        </p>
+
+        <p>
+            Me quedo con lo bueno, con tu risa, tus detalles, y todo lo que fuiste en mi vida. No guardo rencores, solo buenos recuerdos. Te deseo lo mejor en todo lo que venga.
+        </p>
+
+        <p>
+            Gracias por ser parte de mi historia.
+        </p>
+
+        <div class="firma">Con cariño, <br>de parte de tu amorchi</div>
+    </div>
+</body>
+</html>
